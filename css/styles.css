@@ -1,0 +1,72 @@
+h2 {
+  text-align: center;
+  margin-top: 1% !important;
+}
+.first{
+ background-image: url("../images/backgrounds/b1.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ font-weight: normal!important;
+ text-align: center;
+ color: white;
+}
+.container{
+  text-align: center;
+}
+.second{
+ text-align: center;
+ margin-top: 60px !important;
+ font-size: 18px;
+}
+
+.third{
+  background-image: url("../images/backgrounds/b2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  font-weight: normal!important;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+#ma1{
+  margin-left: 5%;
+}
+.form-group{
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+#pad{
+ padding-bottom: 50px;
+ text-align: center;
+}
+#margin{
+margin-left: 0.5%;
+margin-right: 1%;
+}
+
+.contact{
+  background-image: url("../images/backgrounds/b3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: normal!important;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.raw2{
+  text-align: center!important;
+  padding-top: 30px;
+  margin-left: 20%;
+}
+#left{
+  text-align:!important;
+}
