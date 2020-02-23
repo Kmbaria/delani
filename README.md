@@ -21,5 +21,5 @@ Mail Me : Kmbaria.george@gmail.com
       
 ### License
 MIT license
-Copyright &copy; 2019
+Copyright &copy; 2020 Jojik.Gk
   
