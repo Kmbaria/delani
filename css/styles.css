@@ -34,11 +34,12 @@ h2 {
 }
 
 #ma1{
-  margin-left: 5%;
+  margin-left: 15%;
 }
 .form-group{
   background-color: transparent;
-  opacity: 0.4;
+  opacity: 0.3;
+
 }
 
 #pad{
@@ -65,8 +66,28 @@ margin-right: 1%;
 .raw2{
   text-align: center!important;
   padding-top: 30px;
-  margin-left: 20%;
+  margin-left: 15%;
+  margin-bottom: 2%;
 }
 #left{
   text-align:!important;
 }
+.portfolio{
+  margin-top: 3%;
+}
+.end{
+  text-align: center;
+  font-size: 20px;
+}
+.design-showing {
+  display: none;
+}
+
+ .design-showing {
+     display: none;
+   }
+
+   .clickable {
+     cursor: pointer;
+     color: #0088cc;
+   }
