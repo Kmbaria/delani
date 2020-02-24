@@ -100,7 +100,9 @@ margin-right: 1%;
 .container:hover .overlay {
   opacity: 3;
 }
-
+#george{
+  border-radius: 12px;
+}
 .image {
   display: block;
   width: 100%;
