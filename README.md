@@ -20,6 +20,6 @@ There are no bugs at the moment.
 Mail Me : Kmbaria.george@gmail.com 
       
 ### License
-*MIT license.
+MIT license.
 Copyright &copy; 2020 Jojik.Gk
   
