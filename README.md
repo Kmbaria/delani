@@ -1,4 +1,4 @@
-# Delani-Studi
+# Delani-Studio
 ### Made by George Kinyanjui Mbaria
 ## Description
 This is a project that show and describe what Delani Studio does and their works. It also allows users to send and receive  message alert, confirmations of their messages  by the company.
