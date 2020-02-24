@@ -1,7 +1,5 @@
 
-$(document).ready(function() {
-      $(".clickable").click(function() {
-        $(".design.showing").toggle();
-        $(".design.hidden").toggle();
-      });
-    });
+function functionName() {
+  var answr=document.getElementById("george").value;
+  alert(answr+" we have receive your message.Thank you");
+}

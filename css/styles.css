@@ -1,3 +1,6 @@
+body{
+  text-align: center!important;
+}
 h2 {
   text-align: center;
   margin-top: 1% !important;
@@ -10,14 +13,14 @@ h2 {
  font-weight: normal!important;
  text-align: center;
  color: white;
+ font-family: 'Ubuntu Condensed', ;
 }
-.container{
-  text-align: center;
-}
+
 .second{
  text-align: center;
  margin-top: 60px !important;
  font-size: 18px;
+ font-family: 'Ubuntu Condensed', ;
 }
 
 .third{
@@ -72,22 +75,40 @@ margin-right: 1%;
 #left{
   text-align:!important;
 }
-.portfolio{
-  margin-top: 3%;
-}
-.end{
-  text-align: center;
-  font-size: 20px;
-}
-.design-showing {
+/* script part */
+#dl1, #pro3, #dev2{
   display: none;
 }
+/* script part end */
 
- .design-showing {
-     display: none;
-   }
 
-   .clickable {
-     cursor: pointer;
-     color: #0088cc;
-   }
+
+/* portfolio hover */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 3;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+/* portfolio hover end */
