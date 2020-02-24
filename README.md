@@ -8,11 +8,11 @@ This is a project that show and describe what Delani Studio does and their works
   https://kmbaria.github.io/delani/
 ## Setup instructions
 *  No set up instruction for the moment
-
 ## Technologies Used
 * HTML.
 * CSS & Bootsrap.
-* JQuery & Javascript.
+* JQuery
+ * Javascript.
 
 
 ## Support and contact details
