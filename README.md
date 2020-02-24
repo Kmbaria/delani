@@ -1,6 +1,6 @@
 # Delani-Studio
 ### Made by:
-George Kinyanjui Mbaria
+George K Mbaria
 ## Description
 This is a project that show and describe what Delani Studio does and their works. It also allows users to send and receive  message alert, confirmations of their messages  by the company.
 ## Project live site
@@ -9,11 +9,9 @@ This is a project that show and describe what Delani Studio does and their works
 ## Setup instructions
 *  No set up instruction for the moment
 
-## Behavior Driven Development
-
 ## Technologies Used
 * HTML.
-* CSS & Bootsrap
+* CSS & Bootsrap.
 * JQuery & Javascript.
 
 
