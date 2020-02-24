@@ -14,9 +14,7 @@ h2 {
  text-align: center;
  color: white;
 }
-.container{
-  text-align: center;
-}
+
 .second{
  text-align: center;
  margin-top: 60px !important;
@@ -77,4 +75,31 @@ margin-right: 1%;
 }
 #dl1, #pro3, #dev2{
   display: none;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 3;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
 }
