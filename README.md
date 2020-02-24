@@ -13,7 +13,8 @@ This is a project that show and describe what Delani Studio does and their works
 * CSS & Bootsrap.
 * JQuery
 * Javascript.
-
+## Bugs
+There are no bugs at the moment.
 
 ## Support and contact details:
 Mail Me : Kmbaria.george@gmail.com 
