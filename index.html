@@ -6,8 +6,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="css/styles.css" rel="stylesheet" type="text/css">
        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-       <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Merienda&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
        crossorigin="anonymous"></script>
   <title>Delani Studio</title>
@@ -50,71 +50,59 @@
   <h2>WHAT WE DO </h2> <br>
   <div class="row">
   <div class="col-md-3" id="ma1">
-         <div class="design.hidden">
-
+         <div>
            <img id="img1" src="images/icons/design_icon.png"/> </a>
-        <h2>  <span class="clickable">DESIGN</span></h2>
+        <h2>  <span>DESIGN</span></h2>
           <p id="dev1">Our design practice offers a full range of services including
              brand strategy, interaction and visual design and user experience testing.
            Throughout your project, designers create and implement visual design and workflows,
            solicit user feedback and work with you to make sure what gets built is what is needed .</p>
-
         </div>
   </div>
    <div class="col-md-3">
-      <img id= "img2" src="images/icons/dev_icon.png"/> </a>
-
-      <h2> <span class="clickable">DEVELOPMENT</span></h2>
-        <p id="dev2">All engineers are fluent in the latest enterprise, mobile and web development
-           technologies. They collaborate with your team to write and improve code on a daily, using
+      <img id="img2" src="images/icons/dev_icon.png"/> </a>
+       <h2><span>DEVELOPMENT</span></h2>
+        <p id="dev2"> All engineers are fluent in the latest enterprise,
+           mobile and web development technologies.
+           They collaborate with your team to write and improve code on a daily, using
            proven practices such as test-driven developments and pair programming.</p>
    </div>
-    <!-- <div class="col-md-3"> &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp
-        <img src="images/icons/product_icon.png"/> </a> <br>
+    <div class="col-md-3"> &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp
+        <img id="img3" src="images/icons/product_icon.png"/> </a> <br>
      <h2>PRODUCT MANAGEMENT</h2>
-        <p class="design.showing">   Planning and development is iterative. Because we are constantly coding and testing,
+        <p id="dev3">   Planning and development is iterative. Because we are constantly coding and testing,
            the products we build are always ready to go live.
          This iterative process allows for changes as business requirements evolve.   </p>
-    </div> -->
-
-       <!-- <h2> <span class="clickable">DEVELOPMENT</span></h2>
-         <p id="dev2">All engineers are fluent in the latest enterprise, mobile and web development
-            technologies. They collaborate with your team to write and improve code on a daily, using
-            proven practices such as test-driven developments and pair programming.</p> -->
+    </div>
 
   <div class="col-md-3">
-  <img id="img3" src="images/icons/product_icon.png"/> </a> <br>
-    <h2> <span class="clickable">PRODUCT MANAGEMENT</span></h2>
-    <p id="dev3">Planning and development is iterative. Because we are constantly coding and testing,
-      the products we build are always ready to go live.
-      This iterative process allows for changes as business requirements evolve.   </p>
- </div>
-</div> </br>
 
+  </div>
   <div class="portfolio">
      <h2>PORTFOLIO </h2>
      <div class="row" id="margin">
       <div class="col-md-3">
-        <div class="pictures">
-            <img src="images/portfolio/work4.jpg"/> </a>
-            <div class="overlay">My First Project</div>
-        </div>
+        <div class="container">
+       <img src="images/portfolio/work4.jpg"/>
+       <div class="overlay">My first project</div>
+</div>
+
       </div>
 
   <div class="col-md-3">
-    <div class="pictures">
+    <div class="container">
         <img src="images/portfolio/work3.jpg"/> </a>
         <div class="overlay">Mighty Ontario</div>
     </div>
    </div>
     <div class="col-md-3">
-      <div class="pictures">
+      <div class="container">
           <img src="images/portfolio/work2.jpg"/> </a>
           <div class="overlay">Orange</div>
       </div>
    </div>
    <div class="col-md-3">
-     <div class="pictures">
+     <div class="container">
          <img src="images/portfolio/work1.jpg"/> </a>
          <div class="overlay">Cartoon Project</div>
      </div>
@@ -122,25 +110,25 @@
    </div>&nbsp&nbsp&nbsp <br>
       <div class="row" id="margin">
        <div class="col-md-3">
-         <div class="pictures">
+         <div class="container">
              <img src="images/portfolio/work5.jpg"/> </a>
              <div class="overlay">Beach Life</div>
          </div>
       </div>
    <div class="col-md-3">
-     <div class="pictures">
+     <div class="container">
          <img src="images/portfolio/work6.jpg"/> </a>
          <div class="overlay">Back-end</div>
      </div>
    </div>
    <div class="col-md-3">
-     <div class="pictures">
+     <div class="container">
          <img src="images/portfolio/work7.jpg"/> </a>
          <div class="overlay">Burned Logo</div>
      </div>
   </div>
   <div class="col-md-3">
-    <div class="pictures">
+    <div class="container">
         <img src="images/portfolio/work8.jpg"/> </a>
         <div class="overlay">Giraffe Restaurant</div>
     </div>
@@ -175,10 +163,8 @@
        <p class="end">Delani Studios <br>Made by Kmbaria.george <br>2020</p>
 
 </div>
-
+      <script src="js/scripts.js" type="text/javascript"></script>
       <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/jquery-latest.min.js"></script>
-      <script src="js/scripts.js"></script>
-      <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"9143e0f445b38953726643ef7","lid":"f553299f87","uniqueMethods":true}) })</script>
+      <script src="js/jquery-latest.min.js" type="text/javascript"></script>
  </body>
 </html>
