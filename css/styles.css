@@ -1,5 +1,6 @@
 body{
   text-align: center!important;
+   font-family:  'Merienda', ! important;
 }
 h2 {
   text-align: center;
@@ -20,7 +21,7 @@ h2 {
  text-align: center;
  margin-top: 60px !important;
  font-size: 18px;
- font-family: 'Ubuntu Condensed', ;
+ font-family:  'Merienda', ! important;
 }
 
 .third{
@@ -76,7 +77,7 @@ margin-right: 1%;
   text-align:!important;
 }
 /* script part */
-#dl1, #pro3, #dev2{
+#dev1, #dev2, #dev3{
   display: none;
 }
 /* script part end */
@@ -100,6 +101,9 @@ margin-right: 1%;
 .container:hover .overlay {
   opacity: 3;
 }
+.pictures{
+  margin: 15px;
+}
 
 .image {
   display: block;
@@ -112,3 +116,7 @@ margin-right: 1%;
   max-width: 300px;
 }
 /* portfolio hover end */
+.end{
+  font-family: 'Merienda', ! important ;
+font-family: 'Fira Sans Extra Condensed', !important;
+}
