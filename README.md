@@ -8,17 +8,18 @@ This is a project that show and describe what Delani Studio does and their works
   https://kmbaria.github.io/delani/
 ## Setup instructions
 *  No set up instruction for the moment
-
-## Technologies Used
+## Technologies Used:
 * HTML.
 * CSS & Bootsrap.
-* JQuery & Javascript.
+* JQuery
+* Javascript.
+## Bugs
+There are no bugs at the moment.
 
-
-## Support and contact details
+## Support and contact details:
 Mail Me : Kmbaria.george@gmail.com 
       
 ### License
-MIT license
+MIT license.
 Copyright &copy; 2020 Jojik.Gk
   
